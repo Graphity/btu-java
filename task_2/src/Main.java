@@ -18,7 +18,7 @@ public class Main {
         String[] files = dir.list(new FilenameFilter() {
             @Override
             public boolean accept(File dir, String name) {
-                return name.toLowerCase().startsWith(word.toLowerCase());
+                return name.toLowerCase().contains(word.toLowerCase());
             }
         });
 
