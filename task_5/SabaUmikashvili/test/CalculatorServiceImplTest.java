@@ -1,11 +1,9 @@
-package test;
-
 import calculator.CalculatorService;
 import calculator.CalculatorServiceImpl;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Junit {
+public class CalculatorServiceImplTest {
     CalculatorService calculatorService = new CalculatorServiceImpl();
 
     @Test
